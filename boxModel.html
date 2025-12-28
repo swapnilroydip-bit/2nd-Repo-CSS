@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOX Model</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: gray;
+      }
+      .box {
+        width: 300px;
+        height: 130px;
+        border-start-end-radius: inherit;
+        background-color: rgb(255, 230, 0);
+        /* Box Model Contains Three Parts: 1. Padding, 2. Border, 3. Margin */
+
+        padding: 50px;
+        /* padding: 20px 40px; Top/Bottom, Right/Left */
+        /* padding: 10px 20px 30px 40px; Top, Right, Bottom, Left */
+        /* padding: 10px 0 0 0; Top, Right, Bottom, Left */
+
+        /* padding-left: 50px;
+        padding-right: 6px;
+        padding-top: 5px;
+        padding-bottom: 6px; */
+
+        /* Border (Edge) */
+        border: 300px solid blueviolet;
+        /* border: 6px double blueviolet; */
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgb(255, 4, 4);
+        border-radius: 5px;
+        /* border-block-start-color: blue; */
+
+         /* Margine (Outside Space) */
+        margin: 4px;
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat facilis
+      quae, reiciendis quam, officia facere at reprehenderit, hic ipsam minima
+      laboriosam corrupti deserunt tenetur! Soluta dicta ipsa tenetur rem. Odit?
+    </div>
+  </body>
+</html>

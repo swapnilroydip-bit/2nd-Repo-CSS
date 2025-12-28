@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #334564;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background: white;
+  color: #3298db;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px 60px;
+  text-align: center;
+}
+
+.about {
+  background: linear-gradient(to left, #ebabab, #614646);
+}
+
+.services {
+  background: #9ad9f1;
+}
+
+.service-box {
+  background: #c6c1c1;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  
+}
+
+.serviceParent{
+    display: flex;
+}
+
+.contact{
+    background: #eee;
+}
+
+footer{
+    background: #878282;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
